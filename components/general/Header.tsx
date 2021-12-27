@@ -46,7 +46,7 @@ const HeaderStyled = styled.header`
 const Header: FC = (props) => {
     return <HeaderStyled>
         <div className="logo">
-            <img src="/img/grim_icon.png" alt="grim" />
+            <img src="https://res.cloudinary.com/dtyobwis5/image/upload/v1640632404/grim/grim_icon_zggozt.png" alt="grim" />
             <h2>Grim Gamblers</h2>
         </div>
         <nav>
