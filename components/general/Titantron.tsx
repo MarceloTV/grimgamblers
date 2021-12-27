@@ -51,7 +51,7 @@ const Titantron: FC = (props) => {
             <div className="info_container">
                 <img src="/img/grim_icon.png" alt="" />
                 <h1>Grim Gamblers</h1>
-                <p>"Con las cartas jugamos, con la casa nos quedamos..."</p>
+                <p>&quot;Con las cartas jugamos, con la casa nos quedamos...&quot;</p>
             </div>
         </div>
         <video src="https://res.cloudinary.com/dtyobwis5/video/upload/v1640458963/grim/GrimPlays2_ztabyk.mp4" autoPlay loop muted></video>
