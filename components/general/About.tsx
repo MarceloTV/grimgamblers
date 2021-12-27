@@ -48,7 +48,7 @@ const About: FC = (props) => {
             #RollTheDice...</p>
         </div>
 
-        <img src="/img/poro.png" className="poro"/>
+        <img src="https://res.cloudinary.com/dtyobwis5/image/upload/v1640632402/grim/poro_kn6o2t.png" className="poro"/>
     </SectionStyled>
 }
 

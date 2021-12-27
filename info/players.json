@@ -1,55 +1,55 @@
 [
     { 
-        "card_img": "/champ/sett.jpg",
-        "profile_img": "/member/senza.webp",
+        "card_img": "https://res.cloudinary.com/dtyobwis5/image/upload/c_scale,h_720/v1640630780/grim/champ/sett_apeyup.jpg",
+        "profile_img": "https://res.cloudinary.com/dtyobwis5/image/upload/v1640632068/grim/member/senza_aj8n1w.webp",
         "name": "Senza",
         "position": "Toplane",
         "about": "Senza, toplaner y secretaria de Grim Gamblers, es uno de los mejores toplaners de la liga y le cae bien a todos..."
     },
 
     {
-        "card_img": "/champ/qiyana.jpg",
-        "profile_img": "/member/alden.webp",
+        "card_img": "https://res.cloudinary.com/dtyobwis5/image/upload/c_scale,h_720/v1640630804/grim/champ/qiyana_khvzbe.jpg",
+        "profile_img": "https://res.cloudinary.com/dtyobwis5/image/upload/v1640632066/grim/member/alden_cyexhp.webp",
         "name": "Alden",
         "position": "Midlaner",
         "about": "Alden, midlaner de Grim Gamblers, es uno de los capitanes de Grim, gano el premio Harri a la mejor pentakill y al mayor asesino con 202 kills..."
     },
 
     {
-        "card_img": "/champ/varus.jpg",
-        "profile_img": "/member/frnetic.jpg",
+        "card_img": "https://res.cloudinary.com/dtyobwis5/image/upload/v1640630774/grim/champ/varus_kxwblp.jpg",
+        "profile_img": "https://res.cloudinary.com/dtyobwis5/image/upload/v1640632068/grim/member/frnetic_bwrjf2.jpg",
         "name": "Frnetic",
         "position": "AD carry",
         "about": "Frnetic, AD carry de Grim Gamblers, gano el premio Harri al mejor AD carry de la liga..."
     },
 
     {
-        "card_img": "/champ/wukong.jpg",
-        "profile_img": "/member/nextlevel.jpg",
+        "card_img": "https://res.cloudinary.com/dtyobwis5/image/upload/c_scale,h_720/v1640630842/grim/champ/wukong_po9c3a.jpg",
+        "profile_img": "https://res.cloudinary.com/dtyobwis5/image/upload/v1640632068/grim/member/nextlevel_v8lieb.jpg",
         "name": "NextLevel",
         "position":"Toplaner, Support",
         "about": "Simplemente épico el conchesumadre..."
     },
 
     {
-        "card_img": "/champ/graves.png",
-        "profile_img": "/member/XZgamer.webp",
+        "card_img": "https://res.cloudinary.com/dtyobwis5/image/upload/c_scale,h_720/v1640630803/grim/champ/graves_eedxwd.png",
+        "profile_img": "https://res.cloudinary.com/dtyobwis5/image/upload/v1640632067/grim/member/XZgamer_ubgmpw.webp",
         "name": "XZgamer",
         "position": "Midlaner",
         "about": "XZgamer, midlaner y uno de los capitanes de Grim Gamblers, su fuerte es su gran desición en draftear..."
     },
 
     {
-        "card_img": "/champ/rakan.jpg",
-        "profile_img": "/member/neku.webp",
+        "card_img": "https://res.cloudinary.com/dtyobwis5/image/upload/c_scale,h_720/v1640630800/grim/champ/rakan_rv2ang.jpg",
+        "profile_img": "https://res.cloudinary.com/dtyobwis5/image/upload/v1640632066/grim/member/neku_bmsccv.webp",
         "name": "Neku",
         "position": "Support",
         "about": "Neku, support de Grim Gamblers, su fuerte es su gran aportacion de las teamfights del equipo..."
     },
 
     { 
-        "card_img": "/champ/leona.jpg",
-        "profile_img": "/member/moithan.png",
+        "card_img": "https://res.cloudinary.com/dtyobwis5/image/upload/c_scale,h_720/v1640630847/grim/champ/leona_cgndql.jpg",
+        "profile_img": "https://res.cloudinary.com/dtyobwis5/image/upload/v1640632066/grim/member/moithan_lgkrny.png",
         "name": "Moithan",
         "position": "Jungle, Support",
         "about": "Moithan, jungle y support de Grim Gamblers, Nos deleito con su gran Nunu en la jg y sus grandes decisiones..."

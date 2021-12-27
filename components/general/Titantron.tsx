@@ -49,7 +49,7 @@ const Titantron: FC = (props) => {
     return <DivStyled>
         <div className="info">
             <div className="info_container">
-                <img src="/img/grim_icon.png" alt="" />
+                <img src="https://res.cloudinary.com/dtyobwis5/image/upload/v1640632404/grim/grim_icon_zggozt.png" alt="" />
                 <h1>Grim Gamblers</h1>
                 <p>&quot;Con las cartas jugamos, con la casa nos quedamos...&quot;</p>
             </div>
