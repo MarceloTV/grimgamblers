@@ -1,18 +1,20 @@
 [
     {
+        "card_img": "https://res.cloudinary.com/dtyobwis5/image/upload/c_scale,h_720/v1640804153/grim/champ/nautilus_w04cxa.jpg",
+        "profile_img": "https://res.cloudinary.com/dtyobwis5/image/upload/v1640802331/grim/member/xino_dgvlmu.webp",
         "name": "Xinoh",
-        "image": ""
+        "position": "Staff"
     },
     {
+        "card_img": "https://res.cloudinary.com/dtyobwis5/image/upload/c_scale,h_720/v1640800964/grim/champ/volibear_pqnz41.jpg",
+        "profile_img": "https://res.cloudinary.com/dtyobwis5/image/upload/v1640801772/grim/member/sucito_ng1tcl.webp",
         "name": "Sucito",
-        "image": ""
+        "position": "Staff"
     },
     {
-        "name": "Queenbe",
-        "image": ""
-    },
-    {
-        "name": "",
-        "image": ""
+        "card_img": "https://res.cloudinary.com/dtyobwis5/image/upload/c_scale,h_720/v1640803139/grim/champ/miss_fortune_sovpzl.jpg",
+        "profile_img": "https://res.cloudinary.com/dtyobwis5/image/upload/v1640802428/grim/member/queenbe_hou8ui.webp",
+        "name": "Queen Bee",
+        "position": "Staff"
     }
 ]

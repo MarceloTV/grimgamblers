@@ -4,6 +4,8 @@ import MemberCard from "./MemberCard";
 
 import couch from "../../info/couch.json";
 import players from "../../info/players.json";
+import staff from "../../info/staff.json";
+import StaffCard from "./StaffCard";
 
 const SecionStyled = styled.section`
     width: 100%;
@@ -21,6 +23,12 @@ const SecionStyled = styled.section`
         width: 100%;
         display: flex;
         justify-content: center;
+    }
+
+    .staff {
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
     }
 
     .carrousel_members {
@@ -95,6 +103,17 @@ const Members: FC = (props) => {
                 position={couch.position}
                 about={couch.about}
             />
+        </div>
+        <div className="staff">
+            {staff.map((v,i) => {
+                return <StaffCard
+                    key={i}
+                    profile_img={v.profile_img}
+                    card_img={v.card_img}
+                    name={v.name}
+                    position={v.position}
+                />
+            })}
         </div>
         <div className="carrousel_members">
             <div className="left" onClick={(e) => {

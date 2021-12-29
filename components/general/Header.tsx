@@ -6,6 +6,7 @@ const HeaderStyled = styled.header`
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
+    width: 100%;
 
     .logo {
         display: flex;
@@ -41,7 +42,33 @@ const HeaderStyled = styled.header`
         transition: all ease .3s;
         color: var(--main);
     }
+
+    /* .up {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    } */
 `;
+
+const scrollToTop = (duration: any) => {
+    // cancel if already on top
+    if (document.scrollingElement!.scrollTop === 0) return;
+
+    const cosParameter = document.scrollingElement!.scrollTop / 2;
+    let scrollCount = 0, oldTimestamp: any = null;
+
+    function step (newTimestamp: any) {
+        if (oldTimestamp !== null) {
+            // if duration is 0 scrollCount will be Infinity
+            scrollCount += Math.PI * (newTimestamp - oldTimestamp) / duration;
+            if (scrollCount >= Math.PI) return document.scrollingElement!.scrollTop = 0;
+            document.scrollingElement!.scrollTop = cosParameter + cosParameter * Math.cos(scrollCount);
+        }
+        oldTimestamp = newTimestamp;
+        window.requestAnimationFrame(step);
+    }
+    window.requestAnimationFrame(step);
+}
 
 const Header: FC = (props) => {
     return <HeaderStyled>
@@ -50,10 +77,15 @@ const Header: FC = (props) => {
             <h2>Grim Gamblers</h2>
         </div>
         <nav>
-            {["Inicio","Acerca","Miembros","Sponsors"].map((v,i) => {
-                return <a href="#" key={i}>{v}</a>
-            })}
+            <a href="#" onClick={(e) => {
+                e.preventDefault();
+                scrollToTop(1000);
+            }}>Inicio</a>
+            <a href="#">Acerca</a>
+            <a href="#">Miembros</a>
+            <a href="#">Sponsors</a>
         </nav>
+        {/* <button className="up"></button> */}
     </HeaderStyled>
 }
 
