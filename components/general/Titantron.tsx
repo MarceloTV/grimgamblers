@@ -43,6 +43,29 @@ const DivStyled = styled.div`
     .info .info_container p {
         font-size: 2rem;
     }
+
+    @media (max-width: 580px) {
+        & {
+            height: 400px;
+        }
+
+        .info .info_container img {
+            width: 300px;
+            height: 120px;
+        }
+
+        .info .info_container h1 {
+            font-size: 2rem;
+        }
+
+        .info .info_container p {
+            font-size: 1.5rem;
+        }
+    }
+
+    @media (max-width: 450px) {
+        
+    }
 `;
 
 const Titantron: FC = (props) => {

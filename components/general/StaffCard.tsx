@@ -2,7 +2,7 @@ import React, { FC } from "react";
 import styled from "styled-components";
 
 const DivStyle = styled.div`
-    width: 20rem;
+    width: 25%;
     background-color: #ebeef8;
     display: flex;
     flex-direction: column;
@@ -19,8 +19,8 @@ const DivStyle = styled.div`
     }
 
     .profile-img {
-        width: 9rem;
-        height: 9rem;
+        width: 50%;
+        /* height: 9rem; */
         object-fit: cover;
         border-radius: 50%;
         margin-top: -5rem;
@@ -48,12 +48,21 @@ interface CardInterface {
     position: string;
     name: string;
     style?: any;
+    className?: string;
+    square?: number;
 }
 
 const StaffCard: FC<CardInterface> = (props) => {
-    return <DivStyle style={props.style ? props.style : {}}>
+    return <DivStyle className={props.className} style={props.style ? props.style : {}}>
         <img src={props.card_img} alt="champ" className="card-img"/>
-        <img src={props.profile_img} alt={props.name} className="profile-img"/>
+        {props.square ? (
+            <img src={props.profile_img} alt={props.name} style={{
+                width: props.square,
+                height: props.square
+            }} className="profile-img"/>
+        ):(
+            <img src={props.profile_img} alt={props.name} className="profile-img"/>
+        )}
         <h1>{props.name}</h1>
         <p className="job-title">{props.position}</p>
     </DivStyle>

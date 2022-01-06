@@ -37,6 +37,27 @@ const SectionStyled = styled.section`
 
     img {
         width: 30%;
+        object-fit: contain;
+    }
+
+    @media (max-width: 900px){
+        .text p {
+            font-size: .9rem;
+        }
+    }
+
+    @media (max-width: 735px){
+        .text p {
+            font-size: .8rem;
+        }
+    }
+
+    @media (max-width: 700px){
+        .text {
+            width: 90%;
+        }
+
+        img {display: none}
     }
 `;
 
